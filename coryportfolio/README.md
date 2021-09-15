@@ -35,11 +35,12 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Tech Used
+### Tech / Tools Used to build this Portfolio
 
-- React
+- React [React documentation](https://reactjs.org/)
 - Nodejs
 - HTML
 - CSS
 - React Particles [react-particles-js](https://www.npmjs.com/package/react-particles-js)
 - React Typed (Typing Animation) [react-typed](https://www.npmjs.com/package/react-typed)
+- Google Fonts (Ubuntu, Roboto)

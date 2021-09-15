@@ -14,7 +14,7 @@ function NavigationBar() {
     return (
         <div>
             <div id="home">
-                <Navbar className="navigation__container" expand="md">
+                <Navbar className="navigation__container" expand="md" collapseOnSelect>
                 <Navbar.Brand style={{ marginLeft: '1rem'}} href="#home">Cory Fabian</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse style={{ justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none'}}>

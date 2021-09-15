@@ -41,4 +41,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - Nodejs
 - HTML
 - CSS
-- React Particles [Docs](https://www.npmjs.com/package/react-particles-js)
+- React Particles [react-particles-js](https://www.npmjs.com/package/react-particles-js)
+- React Typed (Typing Animation) [react-typed](https://www.npmjs.com/package/react-typed)

@@ -1,30 +1,14 @@
 import './App.css';
 import Navigation from './screens/navigationBar/NavigationBar'
-import Particles from 'react-particles-js';
+import Header from './screens/header/Header'
+import HeroImage from './screens/HeroImage/HeroImage';
 
 function App() {
   return (
     <div className="App">
       <Navigation />
-      <Particles
-        params={{
-          "particles": {
-              "number": {
-                  "value": 50
-              },
-              "size": {
-                  "value": 2
-              }
-          },
-          "interactivity": {
-              "events": {
-                  "onhover": {
-                      "enable": true,
-                      "mode": "repulse"
-                  }
-              }
-          }
-	}} />
+      <Header />
+      <HeroImage />
     </div>
   );
 }

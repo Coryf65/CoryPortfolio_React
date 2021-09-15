@@ -1,8 +1,9 @@
 import './App.css';
 import Navigation from './screens/navigationBar/NavigationBar'
 import Header from './screens/header/Header'
-import HeroImage from './screens/HeroImage/HeroImage';
+import HeroImage from './screens/heroImage/HeroImage';
 import AboutMe from './screens/aboutMe/AboutMe'
+import TechLogos from './screens/techLogos/TechLogos'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <HeroImage />
       <AboutMe />
+      <TechLogos />
     </div>
   );
 }

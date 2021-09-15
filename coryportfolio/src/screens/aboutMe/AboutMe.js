@@ -6,7 +6,7 @@ function AboutMe() {
     return (
         <div className='about-container' id='about-me'>
             <div>
-                <img src={me} id='my-image' alt="A picture of Cory Fabian, headshot smiling with a background of water." />
+                <img src={me} id='my-image' alt="Cory Fabian, headshot smiling with a background of water." />
             </div>
             <div className='about-text'>
                 <h1>About Me</h1>

@@ -4,6 +4,7 @@ import Header from './screens/header/Header'
 import HeroImage from './screens/heroImage/HeroImage';
 import AboutMe from './screens/aboutMe/AboutMe'
 import TechLogos from './screens/techLogos/TechLogos'
+import Portfolio from './screens/portfolio/Portfolio'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HeroImage />
       <AboutMe />
       <TechLogos />
+      <Portfolio />
     </div>
   );
 }

@@ -11,4 +11,4 @@ const portfolioData = [
     }
 ]
 
-export default portfolioData
+export default portfolioData;

@@ -62,9 +62,9 @@ function Portfolio() {
     });
 
     return (
-        <div className='portfolio-container' id='Portfolio'>
+        <div className='portfolio-container' id='portfolio'>
             <h1>Portfolio</h1>
-            <p>Check me out on <a href='https://github.com/Coryf65' target='_blank' rel='noreferrer'><img src={GitHub} width='100px' height='50px'/></a></p>
+            <p>Check me out on <a href='https://github.com/Coryf65' target='_blank' rel='noreferrer'><img src={GitHub} alt="GitHub logo, an OctoCat. Links to CoryFabian's profile" width='100px' height='50px'/></a></p>
             <Container fluid='lg' style={{ padding: '2rem 0'}}>
                 <Row>
                     {mapped}

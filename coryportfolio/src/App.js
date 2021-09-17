@@ -5,6 +5,7 @@ import HeroImage from './screens/heroImage/HeroImage';
 import AboutMe from './screens/aboutMe/AboutMe'
 import TechLogos from './screens/techLogos/TechLogos'
 import Portfolio from './screens/portfolio/Portfolio'
+import ContactForm from './screens/contactForm/ContactForm';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AboutMe />
       <TechLogos />
       <Portfolio />
+      <ContactForm />
     </div>
   );
 }

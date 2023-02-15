@@ -1,0 +1,6 @@
+
+*.vsidx
+*.lock
+.vs/CoryPortfolio_React/v17/.wsuo
+*.sqlite
+.vs/VSWorkspaceState.json

@@ -1,11 +1,10 @@
 .hero-Text {
     display: flex;
     position: absolute;
+    top: 50%;
+    left: 40%;
+    right: 40%;
     color: var(--font-color);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;

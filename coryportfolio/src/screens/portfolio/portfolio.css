@@ -13,6 +13,11 @@
     padding: 10px;
     border: none;
   }
+
+  .portfolio-image {
+    height: 550px;
+    border: 1.5mm ridge var(--hero-color);
+  }
   
   .porfolio-image:hover {
     cursor: pointer;

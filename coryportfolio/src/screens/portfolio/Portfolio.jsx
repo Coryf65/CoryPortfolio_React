@@ -29,7 +29,7 @@ function Portfolio() {
                 </Modal.Header>
                 <Modal.Body>
                     <p>{data.summary}</p>
-                    <Image src={data.image} style={{ width: '200px' }} />
+                    <Image src={data.image} style={{ width: '200px'}} />
                 </Modal.Body>
                 <Modal.Footer>
                     <div>Technologies Used: </div>
@@ -45,7 +45,7 @@ function Portfolio() {
     const mapped = portfolioData.map((e, index) => {
         return (
             <Card key={index} id='portfolio-card-container'>
-                <Image className='porfolio-image' onClick={() => {
+                <Image className='portfolio-image' onClick={() => {
                     setTempData({
                         image: e.image,
                         liveLink: e.liveLink,

@@ -1,6 +1,7 @@
-import factorioMod from '../images/projectImages/SquidInk-FactorioMods.png'
 import rankerApi from '../images/projectImages/ranker_6.png'
 import meetupApi from '../images/projectImages/meetup_1.png'
+import pySelenium from '../images/projectImages/pySelenium_1.png'
+import factorioMod from '../images/projectImages/SquidInk-FactorioMods.png'
 // Add more, using the same from the factorio mod
 
 const portfolioData = [
@@ -18,6 +19,13 @@ const portfolioData = [
         title: 'An API for creating Meetups about Tech or other topics ',
         summary: 'An API using .NET 5 and C#9. Handles CRUD operations with Dependency Injection and Documentation',
         tech: 'C#, .NET 6, EntityFramework, NLog'
+    },
+    {
+        image: pySelenium,
+        githubLink: 'https://github.com/Coryf65/Python_Selenium',
+        title: 'Using Python and Selenium for Automated Testing',
+        summary: 'Selenium helps to automate testing in the browser!',
+        tech: 'Python, Selenium, chrome web driver'
     },
     {
         image: factorioMod,

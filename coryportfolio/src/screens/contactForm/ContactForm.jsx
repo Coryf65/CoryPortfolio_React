@@ -15,7 +15,7 @@ function ContactForm() {
                 <div>
                     <p>Wisconsin</p>
                     <p>Cory Fabian</p>
-                    <p>email</p>
+                    <p></p>
                 </div>
                 <div>
                     {createLinks()}

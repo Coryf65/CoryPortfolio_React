@@ -31,10 +31,11 @@ function Portfolio() {
                     <p>{data.summary}</p>
                     <Image src={data.image} style={{ width: '200px' }} />
                 </Modal.Body>
-                <a id='portfolio-modal-link' href={data.link} target='_blank' rel='noreferrer'>Got To Live Site</a>
                 <Modal.Footer>
                     <div>Technologies Used: </div>
-                    <p style={{ fontSize: '.7rem', marginRight: 'auto' }}>{data.tech}</p>
+                    <p style={{ fontSize: '.9rem', marginRight: 'auto' }}>{data.tech}</p>
+                    <Button className='btn-dark' href={data.liveLink} target='_blank' rel='noreferrer'>Go To Live Site</Button>
+                    <Button className='btn-dark' href={data.githubLink} target='_blank' rel='noreferrer'>See Code on GitHub</Button>
                     <Button onClick={() => setModalShow(false)}>Close</Button>
                 </Modal.Footer>
             </Modal>
@@ -47,7 +48,8 @@ function Portfolio() {
                 <Image className='porfolio-image' onClick={() => {
                     setTempData({
                         image: e.image,
-                        link: e.link,
+                        liveLink: e.liveLink,
+                        githubLink: e.githubLink,
                         title: e.title,
                         summary: e.summary,
                         tech: e.tech

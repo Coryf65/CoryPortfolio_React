@@ -34,7 +34,8 @@ function Portfolio() {
                 <Modal.Footer>
                     <div>Technologies Used: </div>
                     <p style={{ fontSize: '.9rem', marginRight: 'auto' }}>{data.tech}</p>
-                    <Button className='btn-dark' href={data.liveLink} target='_blank' rel='noreferrer'>Go To Live Site</Button>
+
+                    { data.liveLink != null ? <Button className='btn-dark' href={data.liveLink} target='_blank' rel='noreferrer'>Go To Live Site</Button> : null}
                     <Button className='btn-dark' href={data.githubLink} target='_blank' rel='noreferrer'>See Code on GitHub</Button>
                     <Button onClick={() => setModalShow(false)}>Close</Button>
                 </Modal.Footer>

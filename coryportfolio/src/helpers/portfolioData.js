@@ -1,5 +1,6 @@
 import factorioMod from '../images/projectImages/SquidInk-FactorioMods.png'
 import rankerApi from '../images/projectImages/ranker_6.png'
+import meetupApi from '../images/projectImages/meetup_1.png'
 // Add more, using the same from the factorio mod
 
 const portfolioData = [
@@ -10,6 +11,13 @@ const portfolioData = [
         title: 'React and C# webapi Ranking Website',
         summary: 'Rank movies and albums in a tier list. Which are the best and which are the worst?',
         tech: 'React, Bootstrap, C#, .NET6, WebAPI, Entity Framework, Azure Web App (deployed)'
+    },
+    {
+        image: meetupApi,
+        githubLink: 'https://github.com/Coryf65/Meet.API',
+        title: 'An API for creating Meetups about Tech or other topics ',
+        summary: 'An API using .NET 5 and C#9. Handles CRUD operations with Dependency Injection and Documentation',
+        tech: 'C#, .NET 6, EntityFramework, NLog'
     },
     {
         image: factorioMod,
